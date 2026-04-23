@@ -276,6 +276,14 @@ static_path = os.path.join(base_dir, "static")
 # Mount the React Frontend build
 app.mount("/", StaticFiles(directory=static_path, html=True), name="static")
 
+@app.get("/api/shutdown")
+def shutdown():
+    import os
+    import signal
+    # Graceful exit
+    os.kill(os.getpid(), signal.SIGTERM)
+    return {"message": "Shutting down..."}
+
 if __name__ == "__main__":
     import uvicorn
     import threading
