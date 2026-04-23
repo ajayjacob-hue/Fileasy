@@ -2,7 +2,7 @@
 
 **Fileasy** is a beautiful, privacy-first standalone desktop toolkit designed to convert, merge, compress, and secure your documents locally. No cloud uploads, no subscriptions—just effortless file processing.
 
-![Fileasy UI Overview](https://raw.githubusercontent.com/ajayjacob-hue/Fileasy/main/client/public/vite.svg)
+![Fileasy UI Overview](./client/src/assets/vite.svg)
 
 ## ✨ Features
 
