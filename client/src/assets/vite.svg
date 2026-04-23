@@ -1,6 +1,6 @@
 <svg width="200" height="200" viewBox="0 0 200 200" fill="none" xmlns="http://www.w3.org/2000/svg">
   <defs>
-    <!-- Solid Dark Glass Base (matching the screenshot background) -->
+    <!-- Solid Dark Glass Base -->
     <linearGradient id="glass-bg" x1="0" y1="0" x2="200" y2="200" gradientUnits="userSpaceOnUse">
       <stop stop-color="#0f172a"/>
       <stop offset="1" stop-color="#0b1120"/>
@@ -25,12 +25,12 @@
     </filter>
   </defs>
 
-  <!-- Main Card with consistent dark background -->
-  <rect x="10" y="10" width="180" height="180" rx="44" fill="url(#glass-bg)" stroke="white" stroke-opacity="0.15" stroke-width="2"/>
+  <!-- Main Card with sharp edges -->
+  <rect x="10" y="10" width="180" height="180" fill="url(#glass-bg)" stroke="white" stroke-opacity="0.15" stroke-width="2"/>
   
   <!-- Perfectly Centered F -->
   <text x="50%" y="50%" dominant-baseline="central" text-anchor="middle" fill="url(#text-grad)" font-family="Arial Black, Arial, sans-serif" font-weight="900" font-size="125" filter="url(#glow)">F</text>
   
-  <!-- Edge Highlight -->
-  <rect x="11" y="11" width="178" height="178" rx="43" stroke="white" stroke-opacity="0.05" stroke-width="1"/>
+  <!-- Edge Highlight with sharp edges -->
+  <rect x="11" y="11" width="178" height="178" stroke="white" stroke-opacity="0.05" stroke-width="1"/>
 </svg>
