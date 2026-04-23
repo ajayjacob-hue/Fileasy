@@ -1,0 +1,19 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+venv/
+.env
+api/build/
+api/*.spec
+api/Server_Crash_Log.txt
+api/temp_files/
+
+# Node
+node_modules/
+client/dist/
+client/.env
+
+# OS
+.DS_Store
+Thumbs.db
