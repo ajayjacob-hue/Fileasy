@@ -70,4 +70,4 @@ Fileasy is built on a **local-first** philosophy. Your documents never leave you
 ---
 
 ## 📄 License
-MIT License - feel free to use and modify for your own projects!
+Apache License 2.0 - feel free to use and modify for your own projects!
